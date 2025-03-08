@@ -1,43 +1,64 @@
-
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Przeprosiny dla Vanessy</title>
+    <title>Super Duper Przeprosiny dla Vanessy</title>
     <style>
         body {
-            background-color: #fce4ec;
-            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
             text-align: center;
             padding: 50px;
+            color: white;
         }
         .container {
-            background: white;
-            padding: 30px;
-            border-radius: 20px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
             display: inline-block;
+            max-width: 600px;
         }
         h1 {
-            color: #d81b60;
+            color: #ff4081;
+            font-size: 36px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
         }
         p {
-            font-size: 18px;
+            font-size: 20px;
             color: #444;
         }
         img {
-            width: 300px;
+            width: 350px;
             margin-top: 20px;
-            border-radius: 10px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 25px;
+            font-size: 20px;
+            color: white;
+            background: #ff4081;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: #e91e63;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Vanesso, przepraszam! 💔</h1>
-        <p>Wiem, że popełniłem błąd i bardzo tego żałuję. Mam nadzieję, że mi wybaczysz. Jesteś dla mnie niezwykle ważna. ❤️</p>
+        <h1>Vanesso, MEGA SUPER PRZEPRASZAM! 💖</h1>
+        <p>Z całego serca błagam o wybaczenie. Jesteś dla mnie najważniejsza i nie chcę, abyś była smutna. Kocham Cię! ❤️</p>
         <img src="https://media.giphy.com/media/jUwpNzg9IcyrK/giphy.gif" alt="Przeprosiny GIF">
+        <br>
+        <button class="button" onclick="alert('Vanesso, proszę, wybacz mi! 😢')">Kliknij, jeśli mi wybaczasz</button>
     </div>
 </body>
 </html>
